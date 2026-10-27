@@ -1,0 +1,6 @@
+{
+  "name": "MIRM Sync Service Node.js",
+  "description": "Enterprise Node.js conversion and management suite for MICROGENN IRM/MHMS PMS sync unit, featuring automated booking retrieval, acknowledgements, inventory push, and live telemetry.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

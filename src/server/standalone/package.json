@@ -1,0 +1,19 @@
+{
+  "name": "microgenn-mirm-sync",
+  "version": "1.0.0",
+  "description": "MicroGenn IRM/MHMS PMS Node.js synchronization unit",
+  "main": "mirm-sync.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node mirm-sync.js",
+    "install-service": "node install-service.js",
+    "uninstall-service": "node uninstall-service.js",
+    "pm2": "pm2 start mirm-sync.js --name mirm-sync --watch",
+    "dev": "node --watch mirm-sync.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "mssql": "^10.0.4",
+    "node-windows": "^1.0.0-beta.8"
+  }
+}
